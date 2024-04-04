@@ -14,8 +14,10 @@ export function GameHeader() {
 
 const styles = StyleSheet.create({
     container: {
+        flexDirection: "row",
         backgroundColor: "#F8F9FA",
-        paddingBottom: 5,
+        paddingVertical: 5,
+        paddingHorizontal:20
     },
 
     title: {
